@@ -235,3 +235,66 @@ b-btn-1:hover{
   line-height: 1.6;
 }
 
+.app-2{
+    display: flex;
+    flex-direction: row;
+    width: var(--desktop-width);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.app-2 img {
+    width: 600px;
+    height: 600px;
+}
+
+.app-2-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 30px;
+    height: 600px;
+    width: 700px;
+}
+
+
+.a-2-li img{
+    height: 20px;
+    width: 20px;
+}
+
+.a-2-li {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.app-2-info h3{
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 90px;
+    margin-bottom: 20px;
+
+}
+.app-2-info h1{
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 120%;
+    
+}   
+
+.app-2-info p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
