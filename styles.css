@@ -298,3 +298,54 @@ b-btn-1:hover{
     margin-bottom: 20px;
     margin-top: 10px;
 }
+
+footer{
+    height: 348px;
+    width: var(--desktop-width);
+    background:#001931;
+    color: #ffffff;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content
+{
+    width: 1360px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 20px 0px;
+}
+
+.social{
+    margin-right: 30px;
+}
+.social img{
+    size: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.social h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.copyright{
+    margin-top: 30px;
+    width: 1360px;
+    height: 64px;
+}
+.copyright p{
+    text-align: center;
+}
+
+.solid{
+    border: 1px solid #627382;
+    width: 1360px;
+    margin-top: 80px;
+}
